@@ -9,4 +9,4 @@ class CapuletEngine(Engine):
         self.last_service_mileage = last_service_mileage
 
     def needs_service(self):
-        return self.current_mileage - self.last_service_mileage > MILEAGE_PER_SERVICE
+        return (self.current_mileage - self.last_service_mileage) > MILEAGE_PER_SERVICE
