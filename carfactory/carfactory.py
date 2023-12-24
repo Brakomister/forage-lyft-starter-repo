@@ -3,7 +3,7 @@ from engine.model.capulet_engine import *
 from engine.model.willoughby_engine import *
 from engine.model.sternman_engine import *
 from battery.model.nubbin import *
-from battery.model.splinder import *
+from battery.model.spindler import *
 
 
 class CarFactory:
